@@ -1,0 +1,193 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 862px;
+    height: 100vh;
+    background: #3498DB;
+    border: 1px solid #ECF0F1;
+    box-shadow: 0px 4px 20px 30px #BDC3C7;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    all: unset;
+    font-family: 'Anton';
+    font-size: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.input-label {
+    font-family: 'Anton';
+    font-size: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.input-box {
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 540px;
+    height: 93px;
+    margin: 0 auto;
+    font-family: 'Ubuntu';
+    font-size: 48px;
+    color: #ABA4A4;
+    padding: 19px 22px;
+    outline: none;
+}
+
+.task-container {
+    width: 540px;
+    min-height: 480px;
+    left: 45px;
+    top: 495px;
+    margin-left: 161px;
+    margin-top: 40px;
+    background: #ECF0F1;
+    margin-bottom: 25px;
+    overflow-y: auto;
+}
+
+#list {
+    margin: 0;
+    padding: 0;
+}
+
+#list li {
+    list-style: none;
+    height: 111px;
+    background: #ECF0F1;
+    border: 1px solid #3498DB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Ubuntu';
+    font-size: 48px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 48px;
+} */
+
+
+
+
+
+
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+body{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2f353e;
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* height: 20px;
+    width: 20px; */
+    
+}
+
+.header{
+    color: black;
+}
+
+.container{
+            /* background-color: rgb(148, 188, 35); */
+    width: 420px;
+    height: 500px;
+    border: 2px solid rgbrgb(15, 15, 15);
+    box-shadow: 0px 0px 10px black;
+    color: rgb(242, 245, 247);
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(18px);
+   text-align: center;
+  
+}
+
+.container h1{
+    
+}
+
+.label{
+    margin: 16px;
+}
+
+#inputBox{
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-size: 1em;
+    box-shadow: 5px 5px 7px rgb(112, 111, 111),
+    inset 2px 2px 5px rgb(90, 88, 88),
+    inset 3px 3px 5px rgba(88, 84, 84, 0.784);
+}
+
+.label label{
+   font-size: 20px;
+   color: black;
+}
+
+.task-container li{
+    position: relative;
+    width: calc(100% - 2px);
+    display: flex;
+    align-items: center;
+    background-color: #f3b08084;
+    margin: 15px -38px;
+    padding: 10px;
+    min-height: 45px;
+    cursor: pointer;
+    border-radius: 22.5px;
+    box-shadow: 5px 5px 7px rgb(112, 111, 111),
+    inset 2px 2px 5px rgb(90, 88, 88),
+    inset 3px 3px 5px rgba(88, 84, 84, 0.784);
+    color: black;
+}
+
+.task-container li span{
+    position: absolute;
+    right: -40px;
+    width: 30px;
+    height: 30px;
+    background: #718b98b5;
+    border-radius: 30px;
+    box-shadow: 5px 5px 7px rgb(112, 111, 111),
+    inset 2px 2px 5px rgb(90, 88, 88),
+    inset 3px 3px 5px rgba(88, 84, 84, 0.784);
+    font-size: 28px;
+}
