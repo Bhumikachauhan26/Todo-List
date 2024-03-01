@@ -1,0 +1,9 @@
+index.html
+![image](https://github.com/Bhumikachauhan26/Todo-List/assets/159519180/f9515205-deab-46dd-bf72-60999a79844b)
+style.css
+![image](https://github.com/Bhumikachauhan26/Todo-List/assets/159519180/9b9f786c-df72-48da-abb9-003bf17285bd)
+script.js
+![image](https://github.com/Bhumikachauhan26/Todo-List/assets/159519180/d5591696-8d6e-4505-8b84-f8731ae957f0)
+Output:
+![image](https://github.com/Bhumikachauhan26/Todo-List/assets/159519180/b34e9df5-8119-446f-95aa-40d0ec00aec5)
+![image](https://github.com/Bhumikachauhan26/Todo-List/assets/159519180/38458107-3506-46eb-af16-2840da9e1ced)
